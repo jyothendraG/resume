@@ -1,13 +1,57 @@
-# Project template
-- layout: top-middle
-  name: Project 1
-  link: https://sproogen.github.io/modern-resume-theme
-  github: sproogen/modern-resume-theme
+- layout: left
+  border: weak
+  title: Skincare Ingredient Analyzer
+  sub_title: Your Smart Cosmetic Companion
+  caption: Final Year Capstone | AI • OCR • Fuzzy Matching
   quote: >
-    Short overview of the project
-  description: >
-    Description about the work on/with the project
+    AI-powered tool to decode skincare ingredients and recommend safer, personalized products. [file:1]
+  description: |
+    Built an AI-powered system that extracts skincare product ingredients using Optical Character Recognition and classifies their safety using fuzzy string matching against a curated ingredient knowledge base. [file:1]
 
-- name: Project 2
-  description: >
-    Description about the work on/with the project
+    The system recommends safe, personalized skincare products based on user skin type and concerns, helping consumers make informed and healthier product choices. [file:1]
+
+- layout: left
+  border: weak
+  title: DocuSleuth Mini
+  caption: Local Document Q&A and Summarization
+  quote: >
+    Privacy-first document assistant for querying and summarizing local files. [file:1]
+  description: |
+    Developed a local, secure Streamlit application for document question answering and summarization. Integrated OCR, semantic search using ChromaDB, and HuggingFace NLP models to let users ask questions over their own documents and receive concise, context-aware answers and summaries. [file:1]
+
+- layout: left
+  border: weak
+  title: AI Finance Assistant
+  caption: Full-Stack Personal Finance Application
+  quote: >
+    Intelligent finance assistant for spending analysis, budgeting, and investment suggestions. [file:1]
+  description: |
+    Built a full-stack personal finance management app using Flask and SQLAlchemy that supports expense tracking, budgeting, and investment insight generation. [file:1]
+
+    Integrated OCR with Tesseract and OpenCV for automatic receipt scanning and transaction extraction, and used Google Gemini-based AI/ML components to provide personalized financial advice, tax optimization insights, and real-time stock suggestions. [file:1]
+
+- layout: left
+  border: weak
+  title: Ethereum Fraud Detection
+  caption: ML-Based Blockchain Anomaly Detection
+  quote: >
+    Machine learning module to identify suspicious Ethereum transactions. [file:1]
+  description: |
+    Engineered a fraud detection module for Ethereum blockchain data using machine learning algorithms to detect anomalies in transaction patterns. The system flags potentially fraudulent behavior to support proactive monitoring and investigation. [file:1]
+
+- layout: left
+  border: weak
+  title: NGO Transaction Management System
+  caption: Web-Based Financial Tracking
+  quote: >
+    Lightweight platform for transparent NGO financial tracking. [file:1]
+  description: |
+    Built a JavaScript-based web platform to record, track, and report NGO financial transactions. The system improves transparency and efficiency by making it easy to monitor inflows, outflows, and generate basic reports for stakeholders. [file:1]
+
+- layout: left
+  title: To‑Do List Website
+  caption: React-Based Productivity App
+  quote: >
+    Modern, responsive task manager with full CRUD functionality. [file:1]
+  description: |
+    Developed a responsive to‑do list application using React, JavaScript, HTML, and CSS. Implemented full CRUD features with a clean, modern UX to support everyday personal productivity. [file:1]
