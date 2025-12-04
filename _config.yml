@@ -23,7 +23,6 @@ stackoverflow_username: "Jyothendra Ghantasala"
 instagram_username: jyoishim
 linkedin_username: jyothendra-ghantasala
 
-
 # About Section
 about_profile_image: images/profile.jpg
 about_content: |
@@ -31,150 +30,8 @@ about_content: |
 
   Passionate about leveraging technology to build impactful solutions, combining analytical skills with creativity to design systems that drive innovation and positive change. [file:1]
 
+# Sections that will still live inside _config.yml
 content:
-  - title: Projects
-    layout: list
-    content:
-      - layout: left
-        border: weak
-        title: Skincare Ingredient Analyzer
-        sub_title: Your Smart Cosmetic Companion
-        caption: Final Year Capstone | AI • OCR • Fuzzy Matching
-        quote: >
-          AI-powered tool to decode skincare ingredients and recommend safer, personalized products. [file:1]
-        description: |
-          Built an AI-powered system that extracts skincare product ingredients using Optical Character Recognition and classifies their safety using fuzzy string matching against a curated ingredient knowledge base. [file:1]
-
-          The system recommends safe, personalized skincare products based on user skin type and concerns, helping consumers make informed and healthier product choices. [file:1]
-
-      - layout: left
-        border: weak
-        title: DocuSleuth Mini
-        caption: Local Document Q&A and Summarization
-        quote: >
-          Privacy-first document assistant for querying and summarizing local files. [file:1]
-        description: |
-          Developed a local, secure Streamlit application for document question answering and summarization. Integrated OCR, semantic search using ChromaDB, and HuggingFace NLP models to let users ask questions over their own documents and receive concise, context-aware answers and summaries. [file:1]
-
-      - layout: left
-        border: weak
-        title: AI Finance Assistant
-        caption: Full-Stack Personal Finance Application
-        quote: >
-          Intelligent finance assistant for spending analysis, budgeting, and investment suggestions. [file:1]
-        description: |
-          Built a full-stack personal finance management app using Flask and SQLAlchemy that supports expense tracking, budgeting, and investment insight generation. [file:1]
-
-          Integrated OCR with Tesseract and OpenCV for automatic receipt scanning and transaction extraction, and used Google Gemini-based AI/ML components to provide personalized financial advice, tax optimization insights, and real-time stock suggestions. [file:1]
-
-      - layout: left
-        border: weak
-        title: Ethereum Fraud Detection
-        caption: ML-Based Blockchain Anomaly Detection
-        quote: >
-          Machine learning module to identify suspicious Ethereum transactions. [file:1]
-        description: |
-          Engineered a fraud detection module for Ethereum blockchain data using machine learning algorithms to detect anomalies in transaction patterns. The system flags potentially fraudulent behavior to support proactive monitoring and investigation. [file:1]
-
-      - layout: left
-        border: weak
-        title: NGO Transaction Management System
-        caption: Web-Based Financial Tracking
-        quote: >
-          Lightweight platform for transparent NGO financial tracking. [file:1]
-        description: |
-          Built a JavaScript-based web platform to record, track, and report NGO financial transactions. The system improves transparency and efficiency by making it easy to monitor inflows, outflows, and generate basic reports for stakeholders. [file:1]
-
-      - layout: left
-        title: To‑Do List Website
-        caption: React-Based Productivity App
-        quote: >
-          Modern, responsive task manager with full CRUD functionality. [file:1]
-        description: |
-          Developed a responsive to‑do list application using React, JavaScript, HTML, and CSS. Implemented full CRUD features with a clean, modern UX to support everyday personal productivity. [file:1]
-
-  - title: Experience & Internships
-    layout: list
-    content:
-      - layout: right
-        title: U&I (NGO)
-        sub_title: Volunteer Teacher
-        caption: Taught English & Mathematics to 25+ students
-        quote: >
-          Empowering underprivileged students through consistent, concept-focused teaching. [file:1]
-        description: |
-          Conducted weekly English and mathematics sessions for 25+ underprivileged students, focusing on conceptual clarity and engagement. [file:1]
-          Improved student performance and participation using creative learning strategies, and received recognition from leadership for commitment and impact. [file:1]
-
-      - layout: right
-        title: Google AI‑ML Internship (EduSkills, APSCHE)
-        sub_title: AI/ML Intern
-        caption: 120h short-term + 240h long-term
-        description: |
-          Completed intensive internships focused on artificial intelligence and machine learning using Google tools and datasets. [file:1]
-          Gained hands-on experience through guided, industry-oriented projects covering core ML workflows and practical applications. [file:1]
-
-      - layout: right
-        title: Altair Data Science Master Virtual Internship (EduSkills, APSCHE)
-        sub_title: Data Science Intern
-        caption: 120h short-term + 240h long-term
-        description: |
-          Completed structured data science training covering data preprocessing, exploratory analysis, and predictive modeling. [file:1]
-          Applied Python and Altair tools to work through realistic business and analytics problems. [file:1]
-
-      - layout: right
-        title: AWS Cloud Internship (EduSkills, APSCHE)
-        sub_title: Cloud Intern
-        caption: 120h
-        description: |
-          Learned AWS cloud fundamentals, virtualization concepts, and core deployment practices through guided labs and exercises. [file:1]
-
-      - layout: right
-        title: Palo Alto Cybersecurity Virtual Internship (EduSkills, APSCHE)
-        sub_title: Cybersecurity Intern
-        caption: 120h short-term + 240h long-term
-        description: |
-          Completed a virtual internship on cloud security and Zero Trust architectures, focusing on network protection and security platform deployment. [file:1]
-
-      - layout: right
-        title: Zscaler Zero Trust Cloud Security Virtual Internship (AICTE, EduSkills)
-        sub_title: Cloud Security Intern
-        caption: 10-week virtual internship
-        description: |
-          Gained practical understanding of secure cloud networking, Zero Trust principles, and advanced threat protection using Zscaler technologies. [file:1]
-
-      - layout: right
-        title: Deloitte Australia Data Analytics Virtual Job Simulation (Forage)
-        sub_title: Data Analytics Trainee (Simulation)
-        caption: Virtual forensic & analytics projects
-        description: |
-          Completed a practical simulation involving data analysis and forensic technology tasks. [file:1]
-          Built interactive dashboards, analyzed business datasets, and translated findings into actionable business insights. [file:1]
-
-  - title: Education
-    layout: list
-    content:
-      - layout: top-right
-        title: Prasad V. Potluri Siddhartha Institute of Technology
-        sub_title: B.Tech in Computer Science & Engineering
-        caption: 2021 – 2025 | CGPA: 8.04
-        description: |
-          Completed a B.Tech in Computer Science & Engineering with coursework in Data Structures, Algorithms, Machine Learning, and Web Development. [file:1]
-
-      - layout: top-right
-        title: Sarada Educational Institution
-        sub_title: Intermediate
-        caption: 2019 – 2021 | Percentage: 92.2%
-        description: |
-          Completed intermediate education with a strong academic record, building foundations in core science and quantitative subjects. [file:1]
-
-      - layout: top-right
-        title: Nellore’s Ravindra Bharathi School
-        sub_title: Secondary School
-        caption: 2019 | Percentage: 85.5%
-        description: |
-          Completed secondary schooling with solid performance and active participation in academic and extracurricular activities. [file:1]
-
   - title: Skills
     layout: text
     content: |
@@ -211,10 +68,8 @@ content:
 
 # Footer
 footer_show_references: true
-# references_title: References on request
 
 # Build settings
-# theme: modern-resume-theme
 remote_theme: sproogen/modern-resume-theme
 
 sass:
