@@ -1,123 +1,221 @@
 # Site
-repository: Git repository where your resume will be hosted, only required if you are hosting on GitHub (eg. sproogen/modern-resume-theme)
-# favicon: Directory of your favicon (eg. images/favicon.ico)(optional)
+repository: jyothendraG/resume
+# favicon: images/favicon.ico
 
 # Content configuration version
 version: 2
 
 # Personal info
-name: Your Name
-title: Your job title
-email: Your email (optional)
-# email_title: Email (Email title override)
-phone: Your phone number (optional)
-# phone_title: Phone (Phone title override)
-website: Your website (eg. https://google.com)(optional)
-# website_title: Web (Website title override)
+name: Jyothendra Ghantasala
+title: Software Developer | Data & AI Enthusiast
+email: gjyothendra@gmail.com
+phone: "+91 7207528314"
+#website:
+# website_title: Web
 
 # Dark Mode (true/false/never)
 darkmode: false
 
 # Social links
-twitter_username: jekyllrb
-github_username:  jekyll
-stackoverflow_username: "00000001"
-dribbble_username: jekyll
-facebook_username: jekyll
-flickr_username: jekyll
-instagram_username: jekyll
-linkedin_username: jekyll
-xing_username: jekyll
-pinterest_username: jekyll
-youtube_username: jekyll
-orcid_username: 0000-0000-0000-0000
-googlescholar_username: D847cGsAAAAJ
+twitter_username: jyoishim
+github_username: jyothendraG
+stackoverflow_username: "Jyothendra Ghantasala"
+instagram_username: jyoishim
+linkedin_username: jyothendra-ghantasala
 
-# Additional icon links
-additional_links:
-- title: Link name
-  icon: Font Awesome brand icon name (eg. fab fa-twitter) (https://fontawesome.com/icons?d=gallery&s=brands&m=free)
-  url: Link url (eg. https://google.com)
-# - title: another link
-#   icon: font awesome brand icon name (eg. fab fa-twitter) (https://fontawesome.com/icons?d=gallery&s=brands&m=free)
-#   url: Link url (eg. https://google.com)
-
-# Google Analytics and Tag Manager
-# Using more than one of these may cause issues with reporting
-# gtm: "GTM-0000000"
-# gtag: "UA-00000000-0"
-# google_analytics: "UA-00000000-0"
 
 # About Section
-# about_title: About Me (Use this to override about section title)
-about_profile_image: Directory of profile image (eg. images/profile.jpg)
-about_content: | # this will include new lines to allow paragraphs
-  Write an awesome description about yourself here, this supports markdown, so you can add [links](http://foobar.com) and highlight things <mark>like this</mark>.
+about_profile_image: images/profile.jpg
+about_content: |
+  Dynamic and results-driven Computer Science graduate specializing in software development and data analytics, with hands-on experience in full‑stack web apps, AI/ML, and data-driven problem solving. Recognized for strong leadership, teamwork, and problem-solving abilities, with a track record of delivering practical, user-focused projects. [file:1]
 
-  You can even add paragraphs by using empty lines like this and add anything else [markdown](https://www.markdownguide.org/getting-started#what-is-markdown) supports such as
-    - Lists
-    - Tables
-    - <a href="google.com">Links</a>
-    - Images ![alt text](/images/landscape-trees.jpg "Trees")
+  Passionate about leveraging technology to build impactful solutions, combining analytical skills with creativity to design systems that drive innovation and positive change. [file:1]
 
 content:
-  - title: Projects # Title for the section
-    layout: list # Type of content section (list/text)
+  - title: Projects
+    layout: list
     content:
       - layout: left
-        border: weak  # Value of `weak` will display a weak border below this item. # Any 
-                      # other value (or no value) means no border will be displayed
-        title: Project name
-        link: Link to project (eg. sproogen.github.io/modern-resume-theme)(optional)
-        link_text: Link Text
-        additional_links:
-          - title:  Github page for project (eg. sproogen/modern-resume-theme)
-            icon: fab fa-github
-            url: Link to project (eg. sproogen.github.io/modern-resume-theme)(optional)
-          - title:  Github page for project (eg. sproogen/modern-resume-theme)
-            icon: fab fa-github
-            url: Link to project (eg. sproogen.github.io/modern-resume-theme)(optional)
+        border: weak
+        title: Skincare Ingredient Analyzer
+        sub_title: Your Smart Cosmetic Companion
+        caption: Final Year Capstone | AI • OCR • Fuzzy Matching
         quote: >
-          Short overview of the project (optional)
-        description: | # this will include new lines to allow paragraphs
-          Description about the work on/with the project
-  - title: Experience
+          AI-powered tool to decode skincare ingredients and recommend safer, personalized products. [file:1]
+        description: |
+          Built an AI-powered system that extracts skincare product ingredients using Optical Character Recognition and classifies their safety using fuzzy string matching against a curated ingredient knowledge base. [file:1]
+
+          The system recommends safe, personalized skincare products based on user skin type and concerns, helping consumers make informed and healthier product choices. [file:1]
+
+      - layout: left
+        border: weak
+        title: DocuSleuth Mini
+        caption: Local Document Q&A and Summarization
+        quote: >
+          Privacy-first document assistant for querying and summarizing local files. [file:1]
+        description: |
+          Developed a local, secure Streamlit application for document question answering and summarization. Integrated OCR, semantic search using ChromaDB, and HuggingFace NLP models to let users ask questions over their own documents and receive concise, context-aware answers and summaries. [file:1]
+
+      - layout: left
+        border: weak
+        title: AI Finance Assistant
+        caption: Full-Stack Personal Finance Application
+        quote: >
+          Intelligent finance assistant for spending analysis, budgeting, and investment suggestions. [file:1]
+        description: |
+          Built a full-stack personal finance management app using Flask and SQLAlchemy that supports expense tracking, budgeting, and investment insight generation. [file:1]
+
+          Integrated OCR with Tesseract and OpenCV for automatic receipt scanning and transaction extraction, and used Google Gemini-based AI/ML components to provide personalized financial advice, tax optimization insights, and real-time stock suggestions. [file:1]
+
+      - layout: left
+        border: weak
+        title: Ethereum Fraud Detection
+        caption: ML-Based Blockchain Anomaly Detection
+        quote: >
+          Machine learning module to identify suspicious Ethereum transactions. [file:1]
+        description: |
+          Engineered a fraud detection module for Ethereum blockchain data using machine learning algorithms to detect anomalies in transaction patterns. The system flags potentially fraudulent behavior to support proactive monitoring and investigation. [file:1]
+
+      - layout: left
+        border: weak
+        title: NGO Transaction Management System
+        caption: Web-Based Financial Tracking
+        quote: >
+          Lightweight platform for transparent NGO financial tracking. [file:1]
+        description: |
+          Built a JavaScript-based web platform to record, track, and report NGO financial transactions. The system improves transparency and efficiency by making it easy to monitor inflows, outflows, and generate basic reports for stakeholders. [file:1]
+
+      - layout: left
+        title: To‑Do List Website
+        caption: React-Based Productivity App
+        quote: >
+          Modern, responsive task manager with full CRUD functionality. [file:1]
+        description: |
+          Developed a responsive to‑do list application using React, JavaScript, HTML, and CSS. Implemented full CRUD features with a clean, modern UX to support everyday personal productivity. [file:1]
+
+  - title: Experience & Internships
     layout: list
     content:
       - layout: right
-        title: Company name
-        sub_title: Job title
-        caption: Date Range (eg. November 2016 - present)
-        link: Link to company (optional)
+        title: U&I (NGO)
+        sub_title: Volunteer Teacher
+        caption: Taught English & Mathematics to 25+ students
         quote: >
-          Short description of the company (optional)
-        description: | # this will include new lines to allow paragraphs
-          Description of role
+          Empowering underprivileged students through consistent, concept-focused teaching. [file:1]
+        description: |
+          Conducted weekly English and mathematics sessions for 25+ underprivileged students, focusing on conceptual clarity and engagement. [file:1]
+          Improved student performance and participation using creative learning strategies, and received recognition from leadership for commitment and impact. [file:1]
+
+      - layout: right
+        title: Google AI‑ML Internship (EduSkills, APSCHE)
+        sub_title: AI/ML Intern
+        caption: 120h short-term + 240h long-term
+        description: |
+          Completed intensive internships focused on artificial intelligence and machine learning using Google tools and datasets. [file:1]
+          Gained hands-on experience through guided, industry-oriented projects covering core ML workflows and practical applications. [file:1]
+
+      - layout: right
+        title: Altair Data Science Master Virtual Internship (EduSkills, APSCHE)
+        sub_title: Data Science Intern
+        caption: 120h short-term + 240h long-term
+        description: |
+          Completed structured data science training covering data preprocessing, exploratory analysis, and predictive modeling. [file:1]
+          Applied Python and Altair tools to work through realistic business and analytics problems. [file:1]
+
+      - layout: right
+        title: AWS Cloud Internship (EduSkills, APSCHE)
+        sub_title: Cloud Intern
+        caption: 120h
+        description: |
+          Learned AWS cloud fundamentals, virtualization concepts, and core deployment practices through guided labs and exercises. [file:1]
+
+      - layout: right
+        title: Palo Alto Cybersecurity Virtual Internship (EduSkills, APSCHE)
+        sub_title: Cybersecurity Intern
+        caption: 120h short-term + 240h long-term
+        description: |
+          Completed a virtual internship on cloud security and Zero Trust architectures, focusing on network protection and security platform deployment. [file:1]
+
+      - layout: right
+        title: Zscaler Zero Trust Cloud Security Virtual Internship (AICTE, EduSkills)
+        sub_title: Cloud Security Intern
+        caption: 10-week virtual internship
+        description: |
+          Gained practical understanding of secure cloud networking, Zero Trust principles, and advanced threat protection using Zscaler technologies. [file:1]
+
+      - layout: right
+        title: Deloitte Australia Data Analytics Virtual Job Simulation (Forage)
+        sub_title: Data Analytics Trainee (Simulation)
+        caption: Virtual forensic & analytics projects
+        description: |
+          Completed a practical simulation involving data analysis and forensic technology tasks. [file:1]
+          Built interactive dashboards, analyzed business datasets, and translated findings into actionable business insights. [file:1]
+
   - title: Education
     layout: list
     content:
       - layout: top-right
-        title: Institution name
-        sub_title: Qualifications (eg. BA Performing Arts)
-        caption: Date Range (eg. 2016 - 2019)
-        quote: >
-          Short institution or course description (optional)
-        description: | # this will include new lines to allow paragraphs
-          Description of qualification
-  - title: A Little More About Me
-    layout: text
-    content: | # this will include new lines to allow paragraphs
-      This is where you can write a little more about yourself. You could title this section **Interests** and include some of your other interests.
+        title: Prasad V. Potluri Siddhartha Institute of Technology
+        sub_title: B.Tech in Computer Science & Engineering
+        caption: 2021 – 2025 | CGPA: 8.04
+        description: |
+          Completed a B.Tech in Computer Science & Engineering with coursework in Data Structures, Algorithms, Machine Learning, and Web Development. [file:1]
 
-      Or you could title it **Skills** and write a bit more about things that make you more desirable, like *leadership* or *teamwork*
+      - layout: top-right
+        title: Sarada Educational Institution
+        sub_title: Intermediate
+        caption: 2019 – 2021 | Percentage: 92.2%
+        description: |
+          Completed intermediate education with a strong academic record, building foundations in core science and quantitative subjects. [file:1]
+
+      - layout: top-right
+        title: Nellore’s Ravindra Bharathi School
+        sub_title: Secondary School
+        caption: 2019 | Percentage: 85.5%
+        description: |
+          Completed secondary schooling with solid performance and active participation in academic and extracurricular activities. [file:1]
+
+  - title: Skills
+    layout: text
+    content: |
+      **Technical Skills** [file:1]  
+      • Languages: Python, C, C++, Java (Beginner), JavaScript (Beginner)  
+      • Web: MERN Stack, React, HTML, CSS  
+      • Data & Analytics: Machine Learning, Data Analysis, Tableau, Spreadsheets  
+      • Tools & Platforms: LeetCode, HackerRank, CodeChef, Smart Interviews  
+
+      **Soft Skills** [file:1]  
+      • Leadership & Teamwork  
+      • Problem-Solving  
+      • Communication  
+      • Event Organization & Time Management  
+
+  - title: Achievements & Activities
+    layout: text
+    content: |
+      • Runner-up in first-year photography contest. [file:1]  
+      • Organizer & Coordinator in Student Council and Arts Club at PVPSIT. [file:1]  
+      • Frequent participant in hackathons, coding challenges, and technical events. [file:1]  
+      • Top performer on LeetCode, HackerRank, and CodeChef practice platforms. [file:1]
+
+  - title: Certifications
+    layout: text
+    content: |
+      • AI‑ML Internship (Google & AICTE)  
+      • Cyber Security Virtual Internship (Palo Alto Networks & AICTE)  
+      • Deloitte Australia Data Analytics (Forage)  
+      • Infosys Springboard – Blockchain  
+      • NPTEL – C Programming  
+      • Spoken Tutorials – C, C++, Python  
+      • Cisco – Python  [file:1]
 
 # Footer
 footer_show_references: true
-# references_title: References on request (Override references text)
+# references_title: References on request
 
 # Build settings
-# theme: modern-resume-theme (Use this is you are hosting your resume yourself)
-# remote_theme: sproogen/modern-resume-theme (Use this if you are hosting your resume on GitHub)
+# theme: modern-resume-theme
+remote_theme: sproogen/modern-resume-theme
 
 sass:
   sass_dir: _sass
