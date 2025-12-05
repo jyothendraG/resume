@@ -32,7 +32,7 @@ about_content: |
 
 # Sections that will still live inside _config.yml
 content:
-- title: Projects
+  - title: Projects
     layout: list
     content: {{ site.data.projects }}
 
