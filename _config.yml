@@ -32,6 +32,18 @@ about_content: |
 
 # Sections that will still live inside _config.yml
 content:
+- title: Projects
+    layout: list
+    content: {{ site.data.projects }}
+
+  - title: Experience & Internships
+    layout: list
+    content: {{ site.data.experience }}
+
+  - title: Education
+    layout: list
+    content: {{ site.data.education }}
+    
   - title: Skills
     layout: text
     content: |
